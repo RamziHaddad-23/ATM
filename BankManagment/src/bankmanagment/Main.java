@@ -79,7 +79,7 @@ aNumber = (int)((Math.random() * 9000)+1000);
                   userChoice = in.nextInt();
                   switch (userChoice) {
                       
-                  case 1:
+                  case 1: //Create Account
                         System.out.print("Enter your Name : ");
                         user_name=strng.nextLine(); 
                         System.out.print("Enter Accout Type : ");
@@ -90,7 +90,7 @@ aNumber = (int)((Math.random() * 9000)+1000);
                         user.display_details();
                         break;
                       
-                case 2: // deposite
+                case 2: // Deposit
                     System.out.print("Enter your account Number : ");
                     tmp=in.nextInt();
                  if(tmp==user.Acc_num){
@@ -103,7 +103,7 @@ aNumber = (int)((Math.random() * 9000)+1000);
                     System.out.println("Wrong Accoount Number.");          
                    break;
                     
-                  case 3: // withdraw money                      
+                  case 3: // Withdraw money                      
                      System.out.print("Enter your account Number : ");
                       tmp=in.nextInt();
                       
@@ -129,7 +129,7 @@ aNumber = (int)((Math.random() * 9000)+1000);
                              System.out.println("Wrong Accoount Number.");  
                         break;
      
-                  case 4: // check balance 
+                  case 4: // Check Balance 
 
                       System.out.print("Enter your Account Number : ");
                       tmp=in.nextInt();
